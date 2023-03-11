@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Streaming Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #99004d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff9900;
+}
+
+.active {
+  background-color: #8a8a5c;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="genres.html">Genres</a></li>
+  <li><a href="#contact">Top Rated</a></li>
+<li><a href="#news">New Releases</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
+	<main>
+		<section class="banner">
+			<h1>Welcome to our Movie Streaming Website</h1>
+			<p>Watch thousands of movies and TV shows online for free!</p>
+			<a href="#">Start Watching Now</a>
+		</section>
+		<section class="movies">
+			<h2>Popular Movies</h2>
+			<div class="movie">
+				<img src="vikram.jpg" height="200px" width="400px" alt="Movie 1">
+				<h3>Vikram</h3>
+				<p>A high-octane action film where a special investigator is assigned a case of serial Killings, he finds the case is not what it seems to be and leading down this path is only going to end in a war between everyone involved.</p>
+				<a href="https://www.youtube.com/watch?v=OKBMCL-frPU" target="_blank">Watch Trailer</a>
+			</div><br><br>
+			<div class="movie">
+				<img src="ponniyinselvan.jpg" height="200px" width="400px" alt="Movie 2">
+				<h3>Ponniyin Selvan-Part 1</h3>
+				<p>Vandiyathevan sets out to cross the Chola land to deliver a message from the Crown Prince Aditha Karikalan. Kundavai attempts to establish political peace as vassals and petty chieftains plot against the throne. Unrest grips the land as a long-tailed comet arrives, signalling a time of turmoil.</p>
+				<a href="https://www.youtube.com/watch?v=D4qAQYlgZQs" target="_blank">Watch Trailer</a>
+			</div><br><br>
+			<div class="movie">
+				<img src="sp.jpg"  height="200px" width="400px" alt="Movie 3">
+				<h3>Soorarai Pottru</h3>
+				<p>Nedumaaran Rajangam "Maara" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way.</p>
+				<a href="https://www.youtube.com/watch?v=dyzraT_np8w" target="_blank">Watch Trailer</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Movie Streaming Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
